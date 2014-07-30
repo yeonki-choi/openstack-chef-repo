@@ -14,7 +14,7 @@
     "role[os-ops-messaging]",
     "role[os-identity]",
     "role[os-image]",
-    "role[os-network]",
+    "role[os-network-neutron-server-on-controller]",
     "role[os-compute-setup]",
     "role[os-compute-conductor]",
     "role[os-compute-scheduler]",
