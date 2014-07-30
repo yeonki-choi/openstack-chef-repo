@@ -1,0 +1,17 @@
+{
+  "name": "os-network-neutron-server-on-controller",
+  "description": "Configures OpenStack networking, managed by attribute for neutron.",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[os-base]",
+    "recipe[openstack-network::identity_registration]",
+    "role[os-network-server]"
+  ],
+  "env_run_lists": {
+  }
+}
